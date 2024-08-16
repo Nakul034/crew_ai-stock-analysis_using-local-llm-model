@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search input {
+    padding: 10px;
+    width: 300px;
+}
+
+#search button {
+    padding: 10px 20px;
+}
+
+#stock-info, #analysis, #charts {
+    margin-top: 20px;
+}
+
+#charts canvas {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

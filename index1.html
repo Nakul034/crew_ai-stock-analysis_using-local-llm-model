@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Stock Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles1.css') }}">
+</head>
+<body>
+    <header>
+        <h1>AI Stock Analysis</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <form method="POST">
+        <main>
+            <section id="search">
+                <input type="text" id="company" name="company" placeholder="Enter stock symbol...">
+                <button id="search-button">Analyze</button>
+            </section>
+        </main>
+    </form>
+    <footer>
+        <p>© 2024 AI Stock Analysis. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
